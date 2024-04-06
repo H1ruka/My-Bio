@@ -401,6 +401,11 @@ img {
 .form-b {
   background: #333;
   padding-bottom: 3rem; }
+  .form-b .contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; }
 
 @media (max-width: 514px) {
   .main-nav {
